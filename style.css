@@ -1,0 +1,41 @@
+.links {
+    font-size: medium;
+}
+
+.links a {
+    color:#22305C;
+    display: inline;
+    text-decoration:none;
+    font-size: 200%;
+    padding-top: -50px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.links-bg a{
+    background-color: #a48879;
+    color:#fff;
+    display: inline-block;
+    text-decoration:none;
+    font-size: 200%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+body{
+    background: #E7E6E1;
+}
+
+footer {
+background-color: #AA6972;
+display: block;
+text-align: center;
+padding: 3px;
+color: #fff
+}
+
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
