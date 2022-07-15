@@ -1,9 +1,17 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
 .links {
     font-size: medium;
 }
 
 .links a {
     color:#22305C;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
     display: inline;
     text-decoration:none;
     font-size: 200%;
@@ -12,8 +20,8 @@
     text-align: center;
 }
 
-.links-bg a{
-    background-color: #a48879;
+.action-links a{
+    background-color: #22305C;
     color:#fff;
     display: inline-block;
     text-decoration:none;
@@ -25,6 +33,47 @@
 
 body{
     background: #E7E6E1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h2{
+    color:#22305C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Image img{
+    width: 100%;
+}
+
+#About Us {
+    color: red;
+
+}
+
+#Values{
+    color: #000;
+    
+
+}
+
+#Values .abbreviation{
+    color:#22305C;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+#Values .abbreviation span{
+    color: #000;
+}
+
+form{
+    background-color: aliceblue;
+    border-radius: 2%;
+    border-color: #22305C;
+    border-style: dashed;
+    padding: 20px;
+    color: #22305C;
 }
 
 footer {
@@ -35,7 +84,6 @@ padding: 3px;
 color: #fff
 }
 
-article{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5px;
+.shun a{
+    color: #fff;
 }
