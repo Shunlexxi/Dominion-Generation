@@ -3,7 +3,9 @@
     src: url();
 }
 
-
+.header{
+    display:flex;
+}
 .links {
     font-size: medium;
 }
