@@ -1,2 +1,3 @@
 # Dominion-Generation
-A static page for our Teens church.
+---
+A  page for our Teens church.
