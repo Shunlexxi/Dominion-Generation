@@ -1,6 +1,12 @@
+
+
+
+
+/*Image Slider*/
+
 var images = [
-    'assests/Testimonial1.jpg',
-    'assests/Testimonial22.jpg'
+    'assests/Testimonial1.png',
+    'assests/Testimonial2.png'
 ]
 
 var num = 0;
