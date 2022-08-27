@@ -1,48 +1,68 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
 
-
-#header{
-    display: flex;
-    margin-bottom: 10px;
+header{
+    min-height: 70px;
+    
+    margin: 0rem 0rem 1rem 0rem;
+    background-color: #22305C;
+    padding: 2rem 1rem;
     
 }
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    transition: 3s ease;
+}
+
+
+details{
+    color: #fff;
+    text-decoration:none;
+    
+}
+
+
+.links li{
+    list-style: none;
+    
+}
+
+
 .links{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    min-width: 90%;
-    width: 90%;
-    float: right;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
     
 }
 
 .links a:hover{
-    color: #fff;
+    opacity: 0.5;
     text-decoration: underline;
     cursor: pointer;
     
 }
 
-.links {
-    font-size: medium;
-}
 
 .links a {
-    color:#22305C;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    display: inline-block;
+    color: #fff;
     text-decoration:none;
     font-size: larger;
-    padding-right: 30px;
-    padding-left: 10%;
-    
     
 }
+
 
 .action-links a{
     background-color: #22305C;
     color: #fff;
     display: inline-block;
     font-size: 20px;
+    margin: 4rem 0.5rem 2rem 0rem;
     padding: 10px;
     text-decoration: solid;
 }
@@ -55,6 +75,7 @@
 body{
     background: #E7E6E1;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body h2{
@@ -62,6 +83,15 @@ body h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+body h3{
+    color:#22305C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 #Image img{
@@ -69,7 +99,7 @@ body h2{
     height:50%;
 }
 #About{
-    margin-top: 60px;
+    margin: 4rem 2rem;
 }
 #About p{
     margin-top: 20px;
@@ -77,10 +107,7 @@ body h2{
 }
 
 #Values{
-    margin-bottom: 60px;
-    margin-top: 60px;
-
-    
+    margin: 4rem 2rem;
 
 }
 
@@ -95,6 +122,10 @@ body h2{
     color: #000;
 }
 
+#Visitor{
+    margin: 4rem 2rem;
+}
+
 form{
     padding-left: 40%;
     padding-right: 40%;
@@ -106,7 +137,7 @@ form{
     max-width: 100%;
     padding: 20px;
     color: #22305C;
-    margin-bottom: 60px;
+    margin: 0rem;
     /*
     comment    
     */
@@ -128,7 +159,8 @@ input:hover, textarea:hover {
 
 
 #Testimonial{
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 4rem 2rem;
+    
 } 
 
 
