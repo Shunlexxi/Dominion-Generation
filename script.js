@@ -1,5 +1,53 @@
+//Global variables
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+//TODO
+hamburger.addEventListener('click', () => 
+{
+    navMenu.classList.toggle("active");
+    hamburger.classList.toggle("change");
+
+    console.log("Clicked");
+});
+
+//removing nav link from active to normal state
+    navMenu.addEventListener("click", () => {
+        navMenu.style.display = "none";
+    })
+
+//removing hamburger & nav link from active to normal state
+    //document.querySelectorAll(".navLink").forEach(n => 
+    //n.addEventListener("click", () => {
+        //hamburger.classList.remove("change");
+        //console.log("hamX");
+    //}));
 
 
+    
+
+
+/*close*/
+function close(){
+    navMenu.style.display = "none";
+}
+
+
+
+/*
+Menu
+function menu(){
+    
+    
+    let bar = document.getElementsByClassName("bar1", "bar2", "bar3");
+    
+    
+    
+
+    bar.classList.toggle("change");
+
+}
+*/
 
 
 /*Image Slider*/
